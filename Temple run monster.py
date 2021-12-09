@@ -22,8 +22,7 @@ def movement():
     # Moves monkey
     x = 300
     y = 300
-    done = True
-    for i in range(100):
+    while True:
         for i in range(100):
             draw_monkey(x, y)
             y -= 0.1
